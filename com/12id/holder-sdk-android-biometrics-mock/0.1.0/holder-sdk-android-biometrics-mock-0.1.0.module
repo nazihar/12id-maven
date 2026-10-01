@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.12id",
+    "module": "holder-sdk-android-biometrics-mock",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.12id",
+          "module": "holder-sdk-android",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "holder-sdk-android-biometrics-mock-0.1.0.aar",
+          "url": "holder-sdk-android-biometrics-mock-0.1.0.aar",
+          "size": 8834,
+          "sha512": "58d943ef6885461ef7e203113d04781fd85a6b2c6dc68ae63c7b1da43bd9839d189eb91dc25873ef0523b50582ad569d0307ae8eb9b84ce1f1478f6f9c5542a3",
+          "sha256": "709ffb61a36e1e229a7a23b0eaa970b3f267b37017308ec7fc31e2e1ec6f2908",
+          "sha1": "9462d47b3a9988776c9429ded80be2f0cf000813",
+          "md5": "8eafbde4c9ea6cf60ff23ff912b401c0"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "com.12id",
+          "module": "holder-sdk-android",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "holder-sdk-android-biometrics-mock-0.1.0.aar",
+          "url": "holder-sdk-android-biometrics-mock-0.1.0.aar",
+          "size": 8834,
+          "sha512": "58d943ef6885461ef7e203113d04781fd85a6b2c6dc68ae63c7b1da43bd9839d189eb91dc25873ef0523b50582ad569d0307ae8eb9b84ce1f1478f6f9c5542a3",
+          "sha256": "709ffb61a36e1e229a7a23b0eaa970b3f267b37017308ec7fc31e2e1ec6f2908",
+          "sha1": "9462d47b3a9988776c9429ded80be2f0cf000813",
+          "md5": "8eafbde4c9ea6cf60ff23ff912b401c0"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "holder-sdk-android-biometrics-mock-0.1.0-sources.jar",
+          "url": "holder-sdk-android-biometrics-mock-0.1.0-sources.jar",
+          "size": 1880,
+          "sha512": "64159acadcb4d91618f23e2323f350ffce3892000effc87c394fbf2a76c0535b1ddc1da61ad79a1406d7f7bac42f167011f50ef3ea3f8a7b441e045c9eb95922",
+          "sha256": "c352ec204672256428832a7565d2fbe04e7cdeb84725c58a319ebd86d1aebd0c",
+          "sha1": "b2b7a739796803ca0134061993cda8837eb6d1ac",
+          "md5": "063b395d7d7e85e92bff901d3e10bac7"
+        }
+      ]
+    }
+  ]
+}
