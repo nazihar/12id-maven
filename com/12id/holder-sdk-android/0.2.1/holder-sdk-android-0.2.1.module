@@ -1,0 +1,172 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.12id",
+    "module": "holder-sdk-android",
+    "version": "0.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.activity",
+          "module": "activity",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "holder-sdk-android-0.2.1.aar",
+          "url": "holder-sdk-android-0.2.1.aar",
+          "size": 1874402,
+          "sha512": "5cfe8d9275d9068b2b11d2dd7719a7e552c29f960485bc4f09ada6be953fc9a006134a78b41656cc287f83192b4fea7f98abb4092d9aba041b44fe11f1aa8b8b",
+          "sha256": "4248b776fcca37e2ad6ccfb4ea6b97cb9ca6bcf1445bfdf30cddf2be3e3168c7",
+          "sha1": "808e4eebd6a83445ed74974656470c8466b76487",
+          "md5": "b44c9c73265248d91ea2d3ebab6a6574"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.12id",
+          "module": "holder-sdk-native",
+          "version": {
+            "requires": "0.2.1-12id.1"
+          }
+        },
+        {
+          "group": "org.didcommx",
+          "module": "peerdid",
+          "version": {
+            "requires": "0.5.0"
+          },
+          "excludes": [
+            {
+              "group": "com.github.multiformats",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.32"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-process",
+          "version": {
+            "requires": "2.9.4"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "holder-sdk-android-0.2.1.aar",
+          "url": "holder-sdk-android-0.2.1.aar",
+          "size": 1874402,
+          "sha512": "5cfe8d9275d9068b2b11d2dd7719a7e552c29f960485bc4f09ada6be953fc9a006134a78b41656cc287f83192b4fea7f98abb4092d9aba041b44fe11f1aa8b8b",
+          "sha256": "4248b776fcca37e2ad6ccfb4ea6b97cb9ca6bcf1445bfdf30cddf2be3e3168c7",
+          "sha1": "808e4eebd6a83445ed74974656470c8466b76487",
+          "md5": "b44c9c73265248d91ea2d3ebab6a6574"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "holder-sdk-android-0.2.1-sources.jar",
+          "url": "holder-sdk-android-0.2.1-sources.jar",
+          "size": 231582,
+          "sha512": "f88174514f0fc854640f87dc7b2b816b9389731c9f0e7b21f157304c8f888cec2f7b4118acd8976e842d3324a320f8ba54198a67c508c0f8c236b2ccf42ce6d7",
+          "sha256": "a67653b87598b2ddbbbb38f1e7ea7043269c0d5c84333b34cb94fb11ff78fa4d",
+          "sha1": "bc6299f1cbdaab4f97fa68bfa050bae7b5d56b8e",
+          "md5": "15681a27ed8357209ee4365587a348af"
+        }
+      ]
+    }
+  ]
+}
