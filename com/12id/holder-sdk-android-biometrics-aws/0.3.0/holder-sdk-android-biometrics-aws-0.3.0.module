@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.12id",
+    "module": "holder-sdk-android-biometrics-aws",
+    "version": "0.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.12id",
+          "module": "holder-sdk-android",
+          "version": {
+            "requires": "0.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "holder-sdk-android-biometrics-aws-0.3.0.aar",
+          "url": "holder-sdk-android-biometrics-aws-0.3.0.aar",
+          "size": 17971,
+          "sha512": "c99b5c6987cde451654eea8017bbea77cedf0eaf683ff1993396b9353f0eb421d25b19c9baef9e5c7c6ab7109e33bda4d896efda1b62a6367d4f9348693259e7",
+          "sha256": "00817c819c1672c5d14225d95b09ae7a4b1e9d88b894fd83fcf74293877f9720",
+          "sha1": "a661bd6c49b968c2ff18aacd1afb156caca9f9e2",
+          "md5": "2dd9a2cf28cf12a3174d808ffbf603fe"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.amplifyframework.ui",
+          "module": "liveness",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2025.09.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "com.12id",
+          "module": "holder-sdk-android",
+          "version": {
+            "requires": "0.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "holder-sdk-android-biometrics-aws-0.3.0.aar",
+          "url": "holder-sdk-android-biometrics-aws-0.3.0.aar",
+          "size": 17971,
+          "sha512": "c99b5c6987cde451654eea8017bbea77cedf0eaf683ff1993396b9353f0eb421d25b19c9baef9e5c7c6ab7109e33bda4d896efda1b62a6367d4f9348693259e7",
+          "sha256": "00817c819c1672c5d14225d95b09ae7a4b1e9d88b894fd83fcf74293877f9720",
+          "sha1": "a661bd6c49b968c2ff18aacd1afb156caca9f9e2",
+          "md5": "2dd9a2cf28cf12a3174d808ffbf603fe"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "holder-sdk-android-biometrics-aws-0.3.0-sources.jar",
+          "url": "holder-sdk-android-biometrics-aws-0.3.0-sources.jar",
+          "size": 4081,
+          "sha512": "fd3caf27b4901158f79a762d59b26769dfa7777347d93f8fd1b98373b49f60a9da2dcdceaed68421643f6578d8a1db04b6c52a29428196569053c072c8321a44",
+          "sha256": "b35815bfc1fb26dc7a71d580bfb5cec2de918f7b26b5d782f272e3e99ca75ede",
+          "sha1": "db6abf0f323b893b05da9033436f647deadada95",
+          "md5": "799b7cce64213d059686c58d7dc76a45"
+        }
+      ]
+    }
+  ]
+}
