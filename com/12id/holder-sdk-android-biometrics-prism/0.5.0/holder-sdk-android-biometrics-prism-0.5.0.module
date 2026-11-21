@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.12id",
+    "module": "holder-sdk-android-biometrics-prism",
+    "version": "0.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.12id",
+          "module": "holder-sdk-android",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "holder-sdk-android-biometrics-prism-0.5.0.aar",
+          "url": "holder-sdk-android-biometrics-prism-0.5.0.aar",
+          "size": 15735,
+          "sha512": "7e995fb408bce750d2c6bd0566e805ffe9b9f83040385e31acb5be478c22399653421c06b12785800c82424dfe57bc24b3c2a237ed1abdf6b1181c3e3814bc17",
+          "sha256": "498d1ba33ec431b02432814cfa1a2ec9bd5d7d040baf926f3c4165839b76344d",
+          "sha1": "7778cdc1a9bc466646747cca1e476fbfe5cabe79",
+          "md5": "30ee1200e3044799aa5cf77fea8b2b0f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.12id",
+          "module": "prism-sdk-android",
+          "version": {
+            "requires": "1.6.0-4af5f57"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-ktx",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "com.12id",
+          "module": "holder-sdk-android",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "holder-sdk-android-biometrics-prism-0.5.0.aar",
+          "url": "holder-sdk-android-biometrics-prism-0.5.0.aar",
+          "size": 15735,
+          "sha512": "7e995fb408bce750d2c6bd0566e805ffe9b9f83040385e31acb5be478c22399653421c06b12785800c82424dfe57bc24b3c2a237ed1abdf6b1181c3e3814bc17",
+          "sha256": "498d1ba33ec431b02432814cfa1a2ec9bd5d7d040baf926f3c4165839b76344d",
+          "sha1": "7778cdc1a9bc466646747cca1e476fbfe5cabe79",
+          "md5": "30ee1200e3044799aa5cf77fea8b2b0f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "holder-sdk-android-biometrics-prism-0.5.0-sources.jar",
+          "url": "holder-sdk-android-biometrics-prism-0.5.0-sources.jar",
+          "size": 4006,
+          "sha512": "22ad27e0a4c78de69749fc5021693326048791ea4b4de4817cde806ab302bf7105e2f4a536ffa31acc1782d171384b9b9f1224ab8ffdd4da49a4aa5278fd833b",
+          "sha256": "c3cea940342a12f72195a67c82172451f00e9fcf7a5e98d3435389a9eb8400e4",
+          "sha1": "0c02a7c72c2524f97f53f0df09073c1a569c8f24",
+          "md5": "7c0c5eea7d698862800f765b69e1f2a6"
+        }
+      ]
+    }
+  ]
+}
